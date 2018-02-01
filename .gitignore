@@ -1,0 +1,13 @@
+**/.gradle/
+**/build/
+*.md
+*.gradle
+**/test/
+*.cmd
+*.exe
+github/
+*.classpath
+*.project
+**/bin/
+**/.settings/
+**/.vscode/
