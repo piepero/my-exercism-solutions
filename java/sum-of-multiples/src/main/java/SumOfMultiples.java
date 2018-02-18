@@ -13,8 +13,9 @@ class SumOfMultiples {
     }
 
     boolean isMultipleOf(int number, int[] set) {
-        for (int i = 0; i < set.length; i++) {
-            if (number % set[i] == 0) {
+        // check if number can be evenly devided by any of the values in set
+        for (int i: set) {
+            if (number % i == 0) {
                 return true;
             }
         }
@@ -22,6 +23,7 @@ class SumOfMultiples {
     }
 
     int getSum() {
+        // return the precomputed value
         return sumOfMultiples;
     }
 
