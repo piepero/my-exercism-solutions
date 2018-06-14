@@ -3,11 +3,14 @@
 *.md
 *.gradle
 **/test/
+*.iml
 *.cmd
 *.exe
 github/
+*.class
 *.classpath
 *.project
 **/bin/
 **/.settings/
 **/.vscode/
+**/.idea/
